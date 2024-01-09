@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+#container{
+    width: 1320px;
+    margin: 0 auto;
+}
+
+/* banner start */
+.banner{
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/banner.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+    margin-top: 50px;
+}
+.banner-details{
+    padding: 180px 0;
+}
+.banner-details h4{
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Merriweather', serif;
+}
+.banner-details h1{
+    color: #FFF;
+    font-size: 72px;
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    line-height: 95px;
+    width: 632px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 16px;
+}
+/* banner end */
+
+/* happy start */
+.happy{
+    padding: 120px 0;
+}
+.happy h1{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+}
+.happy h6{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 48px;
+}
+.happy h3{
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    padding-top: 16px;
+    padding-bottom: 48px;
+}
+.happy-img{
+    text-align: center;
+}
+
+/* happy end */
+/* welcome start */
+.welcome{
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/welcome.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+}
+.welcome-details{
+    padding-top: 126px;
+    padding-bottom: 142px;
+    margin-left: 126px;
+}
+.welcome-details h1{
+    width: 642px;
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+}
+.welcome-details p{
+    width: 697px;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 24px;
+    padding-bottom: 48px;
+}
+.welcome-details button{
+    padding: 15px 31px;
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: all linear 0.3s;
+    cursor: pointer;
+}
+.welcome-details button:hover{
+    background-color: #F00;
+    border: 1px solid #F00;
+}
+
+/* welcome end */
+/* extra start */
+.extra{
+    padding-top: 120px;
+}
+.extra-details{
+    padding-top: 100px;
+    padding-bottom: 110px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    border-radius: 16px;
+}
+.extra-details span{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+.extra-details p{
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+.extra-btn{
+    padding-top: 48px;
+    text-align: center;
+}
+.extra-details button{
+    background-color: #F00;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 15px 31px;
+    border: 1px solid #F00;
+    border-radius: 8px;
+    transition: all linear 0.3s;
+    cursor: pointer;
+}
+.extra-details button:hover{
+    background-color: #070211;
+    border: 1px solid #070211;
+}
+
+/* extra end */
+/* offer start */
+.offer{
+    padding: 120px 0;
+}
+.offer-details{
+    display: flex;
+    justify-content: space-between;
+}
+.offer-details .first h4{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 104px;
+}
+.offer-details .first h2{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    padding-top: 16px;
+}
+.offer-details .first p{
+    width: 380px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    padding-top: 22px;
+}
+.offer-details .middle{
+    margin-right: 50px;
+}
+.offer-details .middle-img{
+    padding: 49.08px;
+    border-radius: 463px;
+    border: 15px solid #F00;
+}
+
+.offer-details .last h2{
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    padding-top: 110px;
+}
+.offer-details .last p{
+    width: 276px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    padding-top: 16px;
+    padding-bottom: 42px;
+}
+
+
+/* offer end */
