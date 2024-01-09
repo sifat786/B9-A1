@@ -452,7 +452,7 @@ footer{
     justify-content: center;
     align-items: center;
 }
-.footer-details .phone, .website{
+.footer-details .phone,.footer-details .website{
     display: flex;
     justify-content: center;
     align-items: center;
