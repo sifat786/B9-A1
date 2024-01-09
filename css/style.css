@@ -219,7 +219,7 @@ a{
     margin-right: 50px;
 }
 .offer-details .middle-img{
-    padding: 49.08px;
+    padding: 45px;
     border-radius: 463px;
     border: 15px solid #F00;
 }
@@ -245,7 +245,7 @@ a{
 /* offer end */
 /* holiday start */
 .holiday{
-    padding-top: 120px;
+    padding-top: 80px;
 }
 .holiday-details h6{
     color: #070211;
@@ -330,16 +330,186 @@ a{
     padding-top: 22px;
     padding-bottom: 46px;
 }
-.gift-images img{
-    box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+.gift-images .first{
+    display: flex;
+}
+.gift-images .last{
+    display: flex;
+    padding-top: 24px;
+}
+.gift-images .box{
+    transition: all linear 0.3s;
+    border-radius: 16px;
+    opacity: 0.8;
+}
+.gift-images .box:hover{
+    transform: scale(1.12);
+    opacity: 1;
 }
 
 .gift-images .one{
-    padding: 0 20px;
+    padding: 0 24px;
 }
 .gift-images .two{
-    padding: 0 20px;
-    padding-top: 20px;
+    padding: 0 24px;
 }
 
 /* gift end */
+/* news start */
+.news{
+    padding-top: 120px;
+}
+.news-details{
+    padding: 80px 0px;
+    background-color: rgba(255, 0, 0, 0.05);
+    border-radius: 16px;
+    text-align: center;
+}
+.news-details h3{
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    padding-top: 40px;
+}
+.news-details p{
+    width: 896px;
+    margin: 0 auto;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    padding-top: 22px;
+    padding-bottom: 48px;
+}
+.news-details .subscribe{
+    position: relative;
+}
+.news-details .subscribe input{
+    width: 648px;
+    height: 72px;
+    background-color: #FFF;
+    border-radius: 50px;
+    color: black;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 40px;
+    border: 0;
+}
+.news-details .subscribe button{
+    padding: 24px 56px;
+    color: #FFF;
+    background-color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    border: 0;
+    border-radius: 0px 50px 50px 0px;
+
+    position: absolute;
+    top: 0px;
+    right: 336px;
+    transition: all ease 0.3s;
+    cursor: pointer;
+}
+.news-details .subscribe button:hover{
+    background-color: #070211;
+}
+
+/* news end */
+/* footer start */
+footer{
+    padding-top: 120px;
+}
+#footer{
+    background-color: #070211;
+}
+.footer-details{
+    padding: 120px 0;
+}
+.footer-details .first{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.footer-details .first p{
+    width: 375px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+.footer-details .contact{
+    justify-content: center;
+    align-items: center;
+}
+.footer-details .phone, .website{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-details .phone p{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    margin-left: 16px;
+}
+.footer-details .website p{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    margin-left: 16px;
+}
+
+.hr{
+    width: 1320px;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.footer-details .middle-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.footer-details .middle-images .icon{
+    margin-right: 24px;
+}
+.footer-details .end{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+}
+.footer-details .end p{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+.footer-details .end a{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.footer-details .end a:hover{
+    text-decoration: underline;
+}
+/* footer end */
