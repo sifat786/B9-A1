@@ -171,7 +171,7 @@ a{
     font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
-    padding: 15px 31px;
+    padding: 16px 32px;
     border: 1px solid #F00;
     border-radius: 8px;
     transition: all linear 0.3s;
@@ -242,5 +242,104 @@ a{
     padding-bottom: 42px;
 }
 
-
 /* offer end */
+/* holiday start */
+.holiday{
+    padding-top: 120px;
+}
+.holiday-details h6{
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+}
+.holiday-details h1{
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    padding-top: 16px;
+}
+.holiday-details span{
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+.holiday-details p{
+    width: 1068px;
+    color: rgba(7, 2, 17, 0.60);
+    margin: 0 auto;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    padding-top: 28px;
+    padding-bottom: 64px;
+}
+
+.holiday-images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+}
+.holiday-images img{
+    z-index: 9;
+}
+.holiday-images .discount {
+    position: absolute;
+    top: 10%;
+    right: 21%;
+}
+.holiday-images .last-img{
+    margin-top: -150px;
+    z-index: -1;
+}
+
+/* holiday end */
+/* gift start */
+.gift{
+    padding-top: 160px;
+}
+.gift-details h6{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+.gift-details h2{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    padding-top: 16px;
+}
+.gift-details p{
+    width: 896px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    padding-top: 22px;
+    padding-bottom: 46px;
+}
+.gift-images img{
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+}
+
+.gift-images .one{
+    padding: 0 20px;
+}
+.gift-images .two{
+    padding: 0 20px;
+    padding-top: 20px;
+}
+
+/* gift end */
